@@ -2,6 +2,7 @@ import 'package:animations/animatedcontainer.dart';
 import 'package:animations/fadetransition.dart';
 import 'package:animations/rotatetransition.dart';
 import 'package:animations/slidertransition.dart';
+import 'package:animations/tweentransition.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: RotateTransitionDemo(),
+      home: TweenAnimationBuilderExample(),
     );
   }
 }
